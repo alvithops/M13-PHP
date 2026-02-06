@@ -28,6 +28,6 @@ array
     $jumlah = count($barang_array);
 
     if($jumlah == 0){
-        echo "Tidak"
+        echo "Tidak ada barang"
     }
 }
