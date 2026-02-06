@@ -4,7 +4,9 @@
         <title>Bukti Pembelian</title>
         <style>
             @media print{
-                #tombol{}
+                #tombol{
+                    display:
+                }
             }
         </style>
     </head>
