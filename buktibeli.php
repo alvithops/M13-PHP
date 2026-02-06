@@ -27,7 +27,9 @@
         </style>
     </head>
     <body>
-        <div class=""
+        <div class="tengah">
+            
+        </div>
     </body>
 
 </html>
