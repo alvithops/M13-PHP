@@ -44,7 +44,7 @@
         echo "NO. NOTA : ".date("Ymd").$row['tanggal']."<br>";
         echo "TANGGAL : ".$row['tanggal']."<br>";
         echo "NAMA :".$row['namacust']."<br>";
-        $sql = "select barang.nama, djual.harga, djual.qty,(djual.harga * djual.qty) as jumlah from djual inner join"
+        $sql = "select barang.nama, djual.harga, djual.qty,(djual.harga * djual.qty) as jumlah from djual inner join barang"
     </body>
 
 </html>
