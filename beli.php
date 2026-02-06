@@ -15,5 +15,6 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
         $simpan = false;
     }
 
-    //mendapat id dr query
+    //mendapat id dr query terakhir
+    
 }
