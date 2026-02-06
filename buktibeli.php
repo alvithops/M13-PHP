@@ -42,7 +42,8 @@
         echo "<pre>";
         echo "<h2>Bukti Pembelian</h2>";
         echo "NO. NOTA : ".date("Ymd").$row['tanggal']."<br>";
-        echo "TANGGAL : ".$row['tanggal']."<
+        echo "TANGGAL : ".$row['tanggal']."<br>";
+        
         
     </body>
 
