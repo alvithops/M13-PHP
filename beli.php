@@ -51,6 +51,6 @@ array
         }
 
         // simpan ke djual
-        $spl = "insert into djual (idhjual)"
+        $spl = "insert into djual (idhjual,idbarang,qty,harga) values ()"
     }
 }
