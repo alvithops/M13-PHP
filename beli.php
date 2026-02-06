@@ -18,6 +18,6 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     //mendapat id dr query terakhir
     $idhjual = mysqli_insert_id($kon);
     if($idhjual == 0) {
-        echo "Data"
+        echo "Data customer tidak ada <br>";
     }
 }
