@@ -76,5 +76,5 @@ if($simpan){
     echo "pembelian berhasil<br>"; //cek
 } else {
     $rollback = mysqli_rollback($kon);
-    echo "Pembelian"
+    echo "Pembelian gagal"
 }
