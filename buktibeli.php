@@ -16,7 +16,9 @@
                 border-collapse: collapse;
             }
 
-            .tengah
+            .tengah{
+                width:
+            }
         </style>
     </head>
 
