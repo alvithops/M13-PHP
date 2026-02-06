@@ -26,4 +26,8 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
 array
     $barang_array = explode(",", $barangPilih);
     $jumlah = count($barang_array);
+
+    if($jumlah == 0){
+        e
+    }
 }
