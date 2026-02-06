@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bukti</title>
+        <title>Bukti Pembelian</title>
     </head>
 
 </html>
