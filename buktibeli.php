@@ -32,7 +32,13 @@
             <input type="button" value="Cetak" onclick="window.print()">
         </div>
         <?php
-        $idhjual = $_GET
+        $idhjual = $_GET['idhjual'];
+        require_once "koneksitoko.php";
+        $kon = koneksiToko();
+
+        $sql = "SELECT * FROM hjual WHERE id = $idhjual";
+        $hasil = mysqli_query($kon, $sql);
+        $row = mysqli_fetch_array($hasil);
     </body>
 
 </html>
