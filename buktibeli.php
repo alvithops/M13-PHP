@@ -30,8 +30,9 @@
         <div class="tengah">
             <input type="button" value="Beli Lagi" onclick="window.location.href='tampilbarang.php'">
             <input type="button" value="Cetak" onclick="window.print()">
-            
         </div>
+        <?php
+        
     </body>
 
 </html>
