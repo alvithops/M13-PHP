@@ -31,6 +31,10 @@ array
         echo "Tidak ada barang yang dipilih <br>";
         $simpan = false;
     } else {
-        foreach($)
+        foreach($barang_array as $idbarang){
+            if($idbarang == 0){
+                
+            }
+        }
     }
 }
