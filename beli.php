@@ -37,6 +37,8 @@ array
             }
            $sql = "select * from barang where id = $idbarang ";
            $hasil = mysqli_query($kon, $sql); 
+           $simpan = false;
+           break;
         }
     }
 }
