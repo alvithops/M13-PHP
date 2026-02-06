@@ -28,7 +28,7 @@
     </head>
     <body>
         <div class="tengah">
-            <input type="button" value
+            <input type="button" value="Beli"
             
         </div>
     </body>
