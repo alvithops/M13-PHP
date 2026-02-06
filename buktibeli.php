@@ -8,7 +8,7 @@
                     display: none;
                 }
             }
-            table, td
+            table, td, th {}
         </style>
     </head>
 
