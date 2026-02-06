@@ -9,5 +9,6 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     //memulai transaksi
     $mulaiTransaksi = mysqli_begin_transaction($kon);
     $sql = "insert into hjual (tanggal, namacust, email, notelp) value ('$tanggal','$namacust','$email','$notelp')";
-    $
+    $hasil = mysqli_query($kon, $sql);
+    if(!$hasil)
 }
