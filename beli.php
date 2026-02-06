@@ -39,6 +39,8 @@ array
            $hasil = mysqli_query($kon, $sql); 
            $simpan = false;
            break;
+        } else {
+            $row = mysqli_fetch_array($hasil);
         }
     }
 }
