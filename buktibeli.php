@@ -44,7 +44,15 @@
         echo "NO. NOTA : ".date("Ymd").$row['tanggal']."<br>";
         echo "TANGGAL : ".$row['tanggal']."<br>";
         echo "NAMA :".$row['namacust']."<br>";
-        $sql = "select barang.nama, djual.harga, djual.qty,(djual.harga * djual.qty) as jumlah from djual inner join barang on djual.idbarang = barang.id"
+        $sql = "select barang.nama, djual.harga, djual.qty,(djual.harga * djual.qty) as jumlah from djual inner join barang on djual.idbarang = barang.id where djual.idhjual = $idhjual";
+        $hasil = mysqli_query($kon, $sql);
+        echo "<table border='1'>";
+        echo "<tr><th>Nama Barang</th><th>Harga</th><th>Qty</th><th>Jumlah</th></tr>";
+        while ($row = mysqli_fetch_array($hasil)) {
+            echo "<tr><td>".$row['nama']."</td><td>".$row['harga']."</td><td>".$row['qty']."</td><td>".$row['jumlah']."</td></tr>";
+        }
+        echo "</table>";
+        echo "</pre>";
     </body>
 
 </html>
