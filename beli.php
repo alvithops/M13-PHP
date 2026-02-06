@@ -33,8 +33,9 @@ array
     } else {
         foreach($barang_array as $idbarang){
             if($idbarang == 0){
-                
+                continue;
             }
+            
         }
     }
 }
