@@ -47,6 +47,7 @@ array
             $simpan = false;
             break;
           }  
+          $harga = $row['harga'];
         }
     }
 }
