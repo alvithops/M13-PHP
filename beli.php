@@ -60,5 +60,6 @@ array
         }
 
         //mengurangi stok barang
+        $sql
     }
 }
