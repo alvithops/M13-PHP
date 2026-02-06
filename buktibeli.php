@@ -36,7 +36,7 @@
         require_once "koneksitoko.php";
         $kon = koneksiToko();
 
-        $sql = "SELECT * FROM hjual WHERE id = $idhjual";
+        $sql = "SELECT * FROM hjual WHERE idhjual = $idhjual";
         $hasil = mysqli_query($kon, $sql);
         $row = mysqli_fetch_array($hasil);
     </body>
