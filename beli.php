@@ -16,5 +16,5 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     }
 
     //mendapat id dr query terakhir
-    
+    $idhjual = mysqli
 }
