@@ -5,7 +5,7 @@
         <style>
             @media print{
                 #tombol{
-                    display:
+                    display: none;
                 }
             }
         </style>
