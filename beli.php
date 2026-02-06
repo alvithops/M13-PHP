@@ -24,5 +24,5 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
 
     // mengkonversi string separator ',' $barangPilih menjadi
 array
-    $barang_array
+    $barang_array = explode(",", $barangPilih)
 }
