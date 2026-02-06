@@ -44,7 +44,8 @@ array
             $stok = $row['stok'] -1;
           if($stok < 0){
             echo "Stok barang ".row['nama']." kosong<br>";
-            
+            $simpan = false;
+            break;
           }  
         }
     }
