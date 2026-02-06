@@ -73,4 +73,5 @@ array
 
 if($simpan){
     $komit = mysqli_commit($kon);
+    echo
 }
