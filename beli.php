@@ -41,6 +41,8 @@ array
            break;
         } else {
             $row = mysqli_fetch_array($hasil);
+            $stok = $row['stok'] -1;
+            
         }
     }
 }
