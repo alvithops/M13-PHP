@@ -72,5 +72,5 @@ array
 } // end ada barang dipilih
 
 if($simpan){
-    $komit
+    $komit = mysqli_commit($kon);
 }
