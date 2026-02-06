@@ -8,6 +8,7 @@
                     display: none;
                 }
             }
+            table
         </style>
     </head>
 
