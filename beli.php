@@ -80,4 +80,4 @@ if($simpan){
 }
 setcookie('keranjang',$barangPilih,time()-3600);
 header("Location:buktibeli.php?idhjual=".$idhjual);
-} //end tidak ada error
+} //end tidak ada error siap
