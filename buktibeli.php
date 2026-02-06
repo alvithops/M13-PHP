@@ -9,7 +9,7 @@
                 }
             }
             table, td, th {
-                border
+                border: 1px
             }
         </style>
     </head>
