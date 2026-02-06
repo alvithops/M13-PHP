@@ -15,6 +15,8 @@
             table {
                 border-collapse: collapse;
             }
+
+            .tengah
         </style>
     </head>
 
