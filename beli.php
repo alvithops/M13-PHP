@@ -55,6 +55,8 @@ array
         $hasil = mysqli_query($kon, $sql);
         if(!$hasil){
             echo "Detail jual gagal simpan<br>";
+            $simpan = false();
+            break;
         }
     }
 }
