@@ -43,7 +43,7 @@
         echo "<h2>Bukti Pembelian</h2>";
         echo "NO. NOTA : ".date("Ymd").$row['tanggal']."<br>";
         echo "TANGGAL : ".$row['tanggal']."<br>";
-        
+        echo 
         
     </body>
 
