@@ -73,5 +73,5 @@ array
 
 if($simpan){
     $komit = mysqli_commit($kon);
-    echo "pembelian berhasil"
+    echo "pembelian berhasil<br>"; //cek
 }
