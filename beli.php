@@ -54,7 +54,7 @@ array
         $sql = "insert into djual (idhjual,idbarang,qty,harga) values ('$idhjual','$idbarang','$qty','$harga')";
         $hasil = mysqli_query($kon, $sql);
         if(!$hasil){
-            echo
+            echo "Detail jual gagal simpan<br>";
         }
     }
 }
