@@ -18,7 +18,7 @@
 
             .tengah{
                 width: 75%;
-                margin
+                margin: auto;
             }
         </style>
     </head>
