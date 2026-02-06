@@ -44,7 +44,7 @@
         echo "NO. NOTA : ".date("Ymd").$row['tanggal']."<br>";
         echo "TANGGAL : ".$row['tanggal']."<br>";
         echo "NAMA :".$row['namacust']."<br>";
-        
+        $sql
     </body>
 
 </html>
