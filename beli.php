@@ -62,6 +62,7 @@ array
         //mengurangi stok barang
         $sql = "update barang set stok = $stok
             where id = $idbarang";
-        $hasil
+        $hasil = mysqli_query($kon, $sql);
+        if
     }
 }
