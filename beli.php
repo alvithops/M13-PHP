@@ -63,6 +63,10 @@ array
         $sql = "update barang set stok = $stok
             where id = $idbarang";
         $hasil = mysqli_query($kon, $sql);
-        if
+        if(!$hasil){
+            echo "Update stok gagal<br>";
+            $simpan = false;
+            break;
+        }
     }
 }
