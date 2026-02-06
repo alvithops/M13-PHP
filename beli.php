@@ -30,5 +30,7 @@ array
     if($jumlah == 0){
         echo "Tidak ada barang yang dipilih <br>";
         $simpan = false;
+    } else {
+        foreach($)
     }
 }
