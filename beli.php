@@ -78,6 +78,7 @@ if($simpan){
     $rollback = mysqli_rollback($kon);
     echo "Pembelian gagal<br>";
 }
+setcookie
 
 //menutup koneksi
 mysqli_close($kon);
