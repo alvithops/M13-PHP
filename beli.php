@@ -24,5 +24,6 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
 
     // mengkonversi string separator ',' $barangPilih menjadi
 array
-    $barang_array = explode(",", $barangPilih)
+    $barang_array = explode(",", $barangPilih);
+    $jumlah = count($barang_array);
 }
