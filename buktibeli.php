@@ -39,7 +39,7 @@
         $sql = "SELECT * FROM hjual WHERE idhjual = $idhjual";
         $hasil = mysqli_query($kon, $sql);
         $row = mysqli_fetch_array($hasil);
-        echo
+        echo "<pre>";
     </body>
 
 </html>
