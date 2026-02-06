@@ -8,7 +8,7 @@
                     display: none;
                 }
             }
-            table
+            table, td
         </style>
     </head>
 
