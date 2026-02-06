@@ -79,6 +79,6 @@ if($simpan){
     echo "Pembelian gagal<br>";
 }
 setcookie('keranjang',$barangPilih,time()-3600);
-
+header
 //menutup koneksi
 mysqli_close($kon);
