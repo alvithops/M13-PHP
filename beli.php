@@ -22,5 +22,5 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
         $simpan = false;
     }
 
-    // mengkonversi
+    // mengkonversi string
 }
