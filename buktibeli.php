@@ -43,10 +43,7 @@
         echo "<h2>Bukti Pembelian</h2>";
         echo "NO. NOTA : ".date("Ymd").$row['tanggal']."<br>";
         echo "TANGGAL : ".date("d-m-Y")."<br>";
-        echo "NAMA PEMBELI : ".$row['namacust']."<br>";
-        echo "EMAIL : ".$row['email']."<br>";
-        echo "NO. TELP : ".$row['notelp']."<br>";
-        echo "</pre>";
+        
     </body>
 
 </html>
