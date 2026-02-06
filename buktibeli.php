@@ -9,8 +9,10 @@
                 }
             }
             table, td, th {
-                border: 1px solid
+                border: 1px solid gray;
             }
+
+            table 
         </style>
     </head>
 
