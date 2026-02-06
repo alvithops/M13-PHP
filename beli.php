@@ -35,7 +35,7 @@ array
             if($idbarang == 0){
                 continue;
             }
-            
+           $sql = "select * from barang where id = $idbarang "; 
         }
     }
 }
