@@ -35,7 +35,8 @@ array
             if($idbarang == 0){
                 continue;
             }
-           $sql = "select * from barang where id = $idbarang "; 
+           $sql = "select * from barang where id = $idbarang ";
+           $hasil = mysqli_query($kon, $sql); 
         }
     }
 }
