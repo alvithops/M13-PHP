@@ -12,7 +12,9 @@
                 border: 1px solid gray;
             }
 
-            table 
+            table {
+                border
+            }
         </style>
     </head>
 
