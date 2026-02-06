@@ -4,4 +4,9 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     $simpan = true;
 
     require_once "koneksitoko.php";
+    $kon = koneksiToko();
+
+    //memulai transaksi
+    $mulaiTransaksi = mysqli_begin_transaction($kon);
+    $sql = "insert into hjual (tanggal, namacust, email, notelp) value ('$tanggal',"$namacust")
 }
