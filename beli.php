@@ -60,7 +60,8 @@ array
         }
 
         //mengurangi stok barang
-        $sql = "update barang set stok = $stok"
-            where id = $idbarang
+        $sql = "update barang set stok = $stok
+            where id = $idbarang";
+        $hasil
     }
 }
