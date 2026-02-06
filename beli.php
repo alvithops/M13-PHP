@@ -78,7 +78,7 @@ if($simpan){
     $rollback = mysqli_rollback($kon);
     echo "Pembelian gagal<br>";
 }
-setcookie('keranjang',)
+setcookie('keranjang',$barangPilih,)
 
 //menutup koneksi
 mysqli_close($kon);
