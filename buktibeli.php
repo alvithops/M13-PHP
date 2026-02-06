@@ -13,7 +13,7 @@
             }
 
             table {
-                border-collapse:
+                border-collapse: collapse;
             }
         </style>
     </head>
