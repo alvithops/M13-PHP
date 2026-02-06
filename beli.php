@@ -15,5 +15,5 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
         $simpan = false;
     }
 
-    //mendapat
+    //mendapat id dr query
 }
