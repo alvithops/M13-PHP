@@ -41,6 +41,7 @@
         $row = mysqli_fetch_array($hasil);
         echo "<pre>";
         echo "<h2>Bukti Pembelian</h2>";
+        echo 
     </body>
 
 </html>
