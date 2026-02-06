@@ -8,7 +8,9 @@
                     display: none;
                 }
             }
-            table, td, th {}
+            table, td, th {
+                border
+            }
         </style>
     </head>
 
