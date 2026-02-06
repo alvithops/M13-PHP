@@ -69,4 +69,4 @@ array
             break;
         } //end foreach
     } // end ada barang dipilih
-}
+} // end ada barang dipilih
