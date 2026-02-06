@@ -19,6 +19,6 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     $idhjual = mysqli_insert_id($kon);
     if($idhjual == 0) {
         echo "Data customer tidak ada <br>";
-        $simpan 
+        $simpan = false;
     }
 }
