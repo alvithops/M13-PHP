@@ -28,6 +28,7 @@ array
     $jumlah = count($barang_array);
 
     if($jumlah == 0){
-        echo "Tidak ada barang"
+        echo "Tidak ada barang yang dipilih <br>";
+        $
     }
 }
