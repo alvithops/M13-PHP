@@ -28,7 +28,7 @@
     </head>
     <body>
         <div class="tengah">
-            <input type=""
+            <input type="button"
             
         </div>
     </body>
