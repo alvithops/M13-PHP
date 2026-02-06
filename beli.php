@@ -67,6 +67,6 @@ array
             echo "Update stok gagal<br>";
             $simpan = false;
             break;
-        } //end foreach
-    } // end ada barang dipilih
+        } 
+    } //end foreach
 } // end ada barang dipilih
