@@ -11,6 +11,6 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     $sql = "insert into hjual (tanggal, namacust, email, notelp) value ('$tanggal','$namacust','$email','$notelp')";
     $hasil = mysqli_query($kon, $sql);
     if(!$hasil){
-        echo
+        echo "Data customer"
     }
 }
