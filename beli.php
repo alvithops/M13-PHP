@@ -51,5 +51,6 @@ array
         }
 
         // simpan ke djual
+        $spl = "insert into djual (idhjual)"
     }
 }
