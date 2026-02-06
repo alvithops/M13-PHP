@@ -21,7 +21,9 @@
                 margin: auto;
             }
 
-            small
+            small{
+                color
+            }
         </style>
     </head>
 
