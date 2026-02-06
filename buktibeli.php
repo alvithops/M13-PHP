@@ -40,6 +40,7 @@
         $hasil = mysqli_query($kon, $sql);
         $row = mysqli_fetch_array($hasil);
         echo "<pre>";
+        echo "<h2>Bukti Pembelian</h2>";
     </body>
 
 </html>
