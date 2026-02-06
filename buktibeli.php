@@ -20,6 +20,8 @@
                 width: 75%;
                 margin: auto;
             }
+
+            small
         </style>
     </head>
 
