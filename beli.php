@@ -12,6 +12,8 @@ if (empty($namacustErr) && empty($emailErr) && empty($notelpErr) && empty($baran
     $hasil = mysqli_query($kon, $sql);
     if(!$hasil){
         echo "Data customer gagal disimpan" <br>";
-        $simpan = false;"
+        $simpan = false;
     }
+
+    //mendapat
 }
