@@ -1,2 +1,3 @@
 <?php
-echo "Pembelian berhasil"
+echo "Pembelian berhasil";
+?>
