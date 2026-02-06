@@ -68,5 +68,5 @@ array
             $simpan = false;
             break;
         } //end foreach
-    } // end ada
+    } // end ada barang
 }
