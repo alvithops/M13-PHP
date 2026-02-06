@@ -71,4 +71,6 @@ array
     } //end foreach
 } // end ada barang dipilih
 
-if($simpan){}
+if($simpan){
+    $komit
+}
