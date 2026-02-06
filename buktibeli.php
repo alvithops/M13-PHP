@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>Bukti Pembelian</title>
-        <style></style>
+        <style>
+            @media print{}
+        </style>
     </head>
 
 </html>
