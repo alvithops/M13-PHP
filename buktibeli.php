@@ -41,7 +41,7 @@
         $row = mysqli_fetch_array($hasil);
         echo "<pre>";
         echo "<h2>Bukti Pembelian</h2>";
-        echo "NO. NOTA : ".date"
+        echo "NO. NOTA : ".date("Ymd")"
     </body>
 
 </html>
