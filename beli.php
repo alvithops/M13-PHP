@@ -49,5 +49,7 @@ array
           }  
           $harga = $row['harga'];
         }
+
+        // simpan ke djual
     }
 }
