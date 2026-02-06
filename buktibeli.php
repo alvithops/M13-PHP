@@ -22,7 +22,7 @@
             }
 
             small{
-                color
+                color: red;
             }
         </style>
     </head>
