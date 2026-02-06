@@ -3,7 +3,9 @@
     <head>
         <title>Bukti Pembelian</title>
         <style>
-            @media print{}
+            @media print{
+                #tombol{}
+            }
         </style>
     </head>
 
