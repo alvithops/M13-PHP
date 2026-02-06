@@ -32,7 +32,7 @@
             <input type="button" value="Cetak" onclick="window.print()">
         </div>
         <?php
-        $idhjual
+        $idhjual = $_GET
     </body>
 
 </html>
