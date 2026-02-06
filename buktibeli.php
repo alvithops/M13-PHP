@@ -1,2 +1,2 @@
 <?php
-echo "Pembelian"
+echo "Pembelian berhasil"
