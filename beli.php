@@ -58,5 +58,7 @@ array
             $simpan = false();
             break;
         }
+
+        //mengurangi stok barang
     }
 }
