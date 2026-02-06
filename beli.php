@@ -75,5 +75,5 @@ if($simpan){
     $komit = mysqli_commit($kon);
     echo "pembelian berhasil<br>"; //cek
 } else {
-    $rollback = mysqli_rollback
+    $rollback = mysqli_rollback($kon);
 }
